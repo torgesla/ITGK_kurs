@@ -31,3 +31,17 @@ for index, element in enumerate(liste):  # Bruk av enumerate
 
 for bokstav in 'Rumba med Gunn':
     print(bokstav)
+
+matrise = [['00', '01', '02'],
+           ['10', '11', '12'],
+           ['20', '21', '22'],
+           ['30', '31', '32'],
+           ['40', '41', '42']]
+
+for radNr in range(len(matrise)):
+    for kolonneNr in range(len(matrise)):
+        print(f'Rad nr. {radNr} og kolonne nr. {kolonneNr} gir verdi {matrise[radNr][kolonneNr]}')
+
+for rad in matrise:
+    for celle in rad:
+        print(celle)
