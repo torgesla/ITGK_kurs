@@ -1,8 +1,8 @@
 print('Hello world!')       # => Hello World
-print('Hello ', 'World')    # => Hello World
+print('Hello', 'World')    # => Hello World
 print('Husk' + 'Mellomrom')  # => HuskMellomrom
 
-streng1 = 'Hello '
+streng1 = 'Hello'
 streng2 = 'World'
 print(streng1, streng2)     # => Hello World
 

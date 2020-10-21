@@ -36,5 +36,5 @@ age = 24
 
 if(name == 'Torgeir' and age >= 16):
     print('Du kan holde kræsjkurs i ITGK')
-elif(name == Torgeir or age >= 16):  # elif hoppes over hvis if-en kjører
-    print('Du har enten feil alder eller feil navn')
+elif(name != 'Torgeir' or age < 16):  # elif hoppes over hvis if-en kjører
+    print('Du har enten feil navn eller feil alder')

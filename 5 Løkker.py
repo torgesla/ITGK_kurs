@@ -1,5 +1,6 @@
+# Vi bruker while hvis vi ikke vet på forhånd hvor mange iterasjoner som skal kjøre, ellers for.
 i = 0
-while(True):  # Kjører evig eller til den breakes
+while(True):  # Kjører evig eller til den breakes.
     if (i >= 2):  # Bryt ut av løkken hvis i >= 2
         break
     print(i, ': While-true med break')
@@ -39,9 +40,16 @@ matrise = [['00', '01', '02'],
            ['40', '41', '42']]
 
 for radNr in range(len(matrise)):
-    for kolonneNr in range(len(matrise)):
+    for kolonneNr in range(len(matrise[radNr])):
         print(f'Rad nr. {radNr} og kolonne nr. {kolonneNr} gir verdi {matrise[radNr][kolonneNr]}')
 
 for rad in matrise:
     for celle in rad:
         print(celle)
+
+# etter 46: rad = ['00', '01', '02'], celle is not defined
+# etter 47: rad = ['00', '01', '02'], celle = '00'
+# etter 47: rad = ['00', '01', '02'], celle = '01'
+# etter 47: rad = ['00', '01', '02'], celle = '02'
+# etter 46: rad = ['10', '11', '12'], celle = '02'
+# etter 46: rad = ['10', '11', '12'], celle = '10'

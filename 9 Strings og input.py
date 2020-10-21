@@ -1,8 +1,8 @@
-""" navn = input('Skriv navnet ditt')
-tall1 = int(input('Skriv et tall'))
+navn = input('Skriv navnet ditt')
+tall1 = int(input('Skriv et tall'))  # Husk å parse hvis datatyopen du tar inn ikke skal være string
 tall2 = int(input('skriv et annet tall'))
 print(f'Du heter {navn}, og summen av {tall1} og {tall2} er {tall1+tall2}')
- """
+
 long_string = "I'll catch you if you fall - The floor"
 print(long_string[:4])  # => I'll
 print(long_string[-5:])  # => Floor
